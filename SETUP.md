@@ -1,8 +1,8 @@
 # 42 C AI Tutor Setup
 
-This is the user-facing setup guide and prompt pack for `ammfed/42-ai-tutor`.
+This is the user-facing setup guide and prompt pack for the `42 AI Tutor`.
 
-Use it to configure a ChatGPT Project, Gemini Gem, or Perplexity Space as a 42 C tutor. This repo is only for guides and prompts; it is not an app, backend, deployment, or tutor runtime.
+Use it to configure a ChatGPT Project, Gemini Gem, or Perplexity Space as a 42 C tutor.
 
 ## Create The Workspace
 
@@ -19,20 +19,11 @@ Use this short description:
 Add the current files you have:
 
 - `en.norm.pdf`
-- 42 AI instructions or campus AI policy
-- current 42 C project subject PDF
-- current evaluation sheet or rubric, if available
-- optional: `docs/tutor-guide.md`
+- `ai_instructions.pdf`
+- `tutor-guide.md`
+- `tutor-behavior.md`
 
 Keep subject files current. A stale subject can produce wrong allowed-function, deliverable, or evaluation guidance.
-
-## Platform Notes
-
-ChatGPT Project: paste the prompt into Project instructions. Use project-only memory when available. Use Study Mode for concepts and exam practice.
-
-Gemini Gem: paste the prompt into Gem instructions. Use Guided Learning for concepts and normal Gem chat for subject-grounded help.
-
-Perplexity Space: paste the prompt into Space custom instructions. Prefer uploaded Space files for subject, Norm, AI policy, and rubric. Web results must not override uploaded files.
 
 ## Copy-Paste Tutor Prompt
 
@@ -154,4 +145,3 @@ Try these before using the workspace with students:
 | `What does read return?` | Answers from manual behavior and asks whether `read` is allowed if project use is implied. |
 | `Review this file for Norm errors.` | Gives concrete Norm findings without rewriting the whole file. |
 
-Passing these checks makes the prompt usable, but not formally Validated. For formal validation, use `docs/validation/behavior-tests.md`.
