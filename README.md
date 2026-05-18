@@ -16,12 +16,12 @@ Use this short description:
 
 ## Add Knowledge Files
 
-Add the current files you have:
+Upload the files from `knowledge-files/`:
 
-- `en.norm.pdf`
-- `ai_instructions.pdf`
-- `tutor-guide.md`
-- `tutor-behavior.md`
+- `knowledge-files/en.norm.pdf`
+- `knowledge-files/ai_instructions.pdf`
+- `knowledge-files/tutor-guide.md`
+- `knowledge-files/tutor-behavior.md`
 
 Keep subject files current. A stale subject can produce wrong allowed-function, deliverable, or evaluation guidance.
 
