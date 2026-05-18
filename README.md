@@ -10,7 +10,7 @@ This tutor helps students reason through C, debug, test, follow the 42 Norm, and
 It should not give submit-ready 42 project solutions.
 
 
-## Use It
+## How to Use It
 
 Open [SETUP.md](SETUP.md), copy the prompt, and paste it into your AI workspace instructions.
 
